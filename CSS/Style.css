@@ -1,0 +1,158 @@
+/*Fuentes*/
+@font-face{
+    font-family: "FjallaOne";
+    src: url("../fonts/FjallaOne-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif,Arial, Helvetica;
+}
+body{
+    background-image: url('../IMG/paven.png');
+}
+/*Cosas Generales*/
+
+.ClearFlix{
+    clear: both;
+}
+.Mamei{
+    color: #d69d2a !important;
+}
+.Azul{
+    color: #0C73F2 !important;
+}
+.Rojo{
+    color: #9b2422 !important;
+}
+.Pulpura{
+    color:#36008b !important;
+}
+/*CABECERA*/
+header{
+    width: 100%;
+    height: 300px;
+}
+
+ header #logoTipo{
+    width: 770px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+header #logoTipo img{
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+}
+
+header h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 0px 1px 1px #333333;
+    line-height: 80px;
+    font-size: 32pt; 
+    letter-spacing: 1.5px;
+    transition: all 300ms;
+}
+
+header h1:hover{
+    text-shadow: 0px 1px 2px #333333;
+}
+
+header h1 a{
+    color:#27BEC4 ;
+}
+
+#cuadroNegro{
+    width: 100%;
+    background-color: #333333;
+    height: 40px;
+    margin-bottom: 50px;
+}
+/*CONTENEDOR GENERAL*/
+#contenedorGeneral{
+    width: 60%;
+    margin: 0 auto;
+}
+.tarjetica{
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 4px #c9c9c9;
+    border: 1px solid #cccc;
+    color: #333333;
+    font-size: 16px;
+    padding: 20px;
+    margin-bottom: 50px;
+    transition: all 100ms;
+}
+
+.tarjetica:hover{
+    box-shadow: 0px 0px 8px #c9c9c9;
+    border: 4px solid #cccc;
+}
+
+
+.tarjetica .Stickers{
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+}
+
+.tarjetica .Stricker-uno{
+    margin-left: 20px;
+}
+.tarjetica .Stricker-dos{
+    margin-left: 1025px;
+}
+
+.tarjetica .titulo{
+    text-align: center;
+    font-family: "FjallaOne";
+    font-weight: normal;
+    font-size: 40pt;
+    border-bottom: 1px solid #cccccc;
+    letter-spacing: 1px;   
+    padding: 10px;
+}
+
+.tarjetica article {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 15px;
+}
+
+article .iconos{
+    display: block;
+    width: 180px;
+    float: right;
+    margin-left: 50px;
+}
+
+article p{
+    text-align: justify;
+    font-size: 15pt;
+}
+article span{   
+    display: block;
+    float: right;
+    margin-top: 20px;
+    color: gray;
+    font-size: 14pxs;
+}
+
+footer{
+    width: 100%;
+    background-color: #333333;
+    height: 60px;
+    padding-top: 15px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
